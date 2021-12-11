@@ -2,13 +2,14 @@
 var script = document.createElement('script');
 script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
 script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
-$.get("https://market.kz", function(data) {
+script.text = '$.get("https://market.kz", function(data) {
           var $obj = $(data).find(".grid-ads-item-compact");
       //дальше легко вытягиваем данные из $obj
             alert($obj);
      }
-  );
+  );';
+document.getElementsByTagName('head')[0].appendChild(script);
+
 
 
 /*let win = open("https://market.kz");
