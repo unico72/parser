@@ -11,7 +11,7 @@ $.get("https://market.kz", function(data) {
   );
 
 
-let win = open("https://market.kz");
+/*let win = open("https://market.kz");
 if(win){
             win.addEventListener("DOMContentLoaded", function (evt)
             {
@@ -21,4 +21,4 @@ if(win){
             });
 } else {
             alert("dont load");           
-}
+}*/
