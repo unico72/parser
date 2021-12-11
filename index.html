@@ -1,1 +1,10 @@
 <h1>Hello<h1>
+<script>
+  let win = open("https://market.kz/");
+            
+            win.addEventListener("DOMContentLoaded", function (evt)
+            {
+                console.log(win.document.querySelectorAll(".grid-ads-item-compact__title-text")[0].textContent);
+            });
+  <script>
+    
