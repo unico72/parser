@@ -1,4 +1,4 @@
-let win = open("http://site.com");
+let win = open("https://market.kz");
             
             win.addEventListener("DOMContentLoaded", function (evt)
             {
